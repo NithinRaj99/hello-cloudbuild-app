@@ -67,7 +67,7 @@ steps:
     path: /root/.ssh
 
 # [START cloudbuild-trigger-cd]
-# This step clones the hello-cloudbuild-env repository
+# This step clones the hello-cloudbuild-env repositoryss
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Change directory
   entrypoint: /bin/sh
